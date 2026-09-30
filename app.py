@@ -428,13 +428,12 @@ with tab2:
             """, unsafe_allow_html=True)
 
 # =====================================================================================
-# ONGLET 3 : STRATÉGIE CODIR & MODÈLE HYBRIDE (NOUVEL ONGLET)
+# ONGLET 3 : STRATÉGIE CODIR & MODÈLE HYBRIDE
 # =====================================================================================
 with tab3:
     st.subheader("Synthese Strategique CODIR : Une Supply Chain Hybride et Circulaire")
     st.caption("Alignement du Modele de Fisher, de l'eco-conception amont et de la gouvernance RSE (Prestataire : INGENIOUS LOGISTICS).")
 
-    # 1. Modèle de Fisher : Décomposition de la Supply Chain Hybride
     st.markdown("#### 1. Positionnement Selon le Modele de Fisher (1997)")
     col_fish1, col_fish2 = st.columns(2)
 
@@ -478,7 +477,6 @@ with tab3:
 
     st.markdown("---")
 
-    # 2. Collaboration Amont-Aval & Eco-Conception
     st.markdown("#### 2. Eco-Conception Amont & Bouclage Circulaire")
     eco1, eco2, eco3 = st.columns(3)
 
@@ -517,7 +515,6 @@ with tab3:
 
     st.markdown("---")
 
-    # 3. Volet Social, Environnemental & Partenariat INGENIOUS LOGISTICS
     st.markdown("#### 3. Infrastructures, Certifications & Inclusion Sociale")
     soc1, soc2, soc3 = st.columns(3)
 
@@ -528,7 +525,7 @@ with tab3:
             <p style="font-size:13px; color:#475569;">
                 • <b>Superficie optimisee :</b> 30 000 m² (un tiers de surface en moins vs Stuttgart).<br>
                 • <b>Connectivite multimodale :</b> Acces direct autoroute A7 (2,3 km), port maritime (1,7 km) et fret ferroviaire (2,5 km).<br>
-                • <b>Loyer & exploitation :</b> 2,0 a 2,5 M€ / an negocies avec INGENIOUS LOGISTICS.
+                • <b>Loyer & exploitation :</b> 2 500 000 € / an negocies avec INGENIOUS LOGISTICS.
             </p>
         </div>
         """, unsafe_allow_html=True)
@@ -671,9 +668,9 @@ with tab4:
         st.markdown("""
         <div class="financial-card" style="border-left:5px solid #005A9C;">
             <span style="font-size:12px; text-transform:uppercase; letter-spacing:1.5px; color:#64748B; font-weight:700;">Total Frais de Fonctionnement Annuels (OPEX)</span>
-            <div style="font-size:38px; font-weight:800; margin:8px 0; color:#0B2545;">2 115 000 € / an</div>
+            <div style="font-size:38px; font-weight:800; margin:8px 0; color:#0B2545;">2 615 000 € / an</div>
             <p style="font-size:13px; color:#475569; margin:0;">
-                • <b>Depot Logistique :</b> 2 000 000 € / an<br>
+                • <b>Depot Logistique :</b> 2 500 000 € / an<br>
                 • <b>Frais annuels technologies :</b> 115 000 € / an (SI: 35k, Blockchain: 20k, IA: 40k, Jumeaux: 20k).
             </p>
         </div>
@@ -686,8 +683,8 @@ with tab4:
         {"Poste / Projet": "Blockchain", "Investissement de base (CAPEX)": 120000, "Frais par an (OPEX)": 20000, "Commentaire / Delai": "3/4 mois d'installation"},
         {"Poste / Projet": "Intelligence Artificielle (IA)", "Investissement de base (CAPEX)": 350000, "Frais par an (OPEX)": 40000, "Commentaire / Delai": "Tri predictif et diagnostic automatique"},
         {"Poste / Projet": "Jumeaux Numeriques", "Investissement de base (CAPEX)": 160000, "Frais par an (OPEX)": 20000, "Commentaire / Delai": "Modelisation dynamique des flux"},
-        {"Poste / Projet": "Depot Logistique", "Investissement de base (CAPEX)": 0, "Frais par an (OPEX)": 2000000, "Commentaire / Delai": "Frais annuels d'exploitation du depot"},
-        {"Poste / Projet": "TOTAL GENERAL", "Investissement de base (CAPEX)": 905000, "Frais par an (OPEX)": 2115000, "Commentaire / Delai": "Budget initial et fonctionnement annuel"}
+        {"Poste / Projet": "Depot Logistique", "Investissement de base (CAPEX)": 0, "Frais par an (OPEX)": 2500000, "Commentaire / Delai": "Frais annuels d'exploitation du depot"},
+        {"Poste / Projet": "TOTAL GENERAL", "Investissement de base (CAPEX)": 905000, "Frais par an (OPEX)": 2615000, "Commentaire / Delai": "Budget initial et fonctionnement annuel"}
     ]
     df_invest = pd.DataFrame(donnees_invest)
 
